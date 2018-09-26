@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightConversionTCP", "WeightConversionTCP\WeightConversionTCP.csproj", "{2C7E96BE-42F0-472D-AF76-899E9FB76AA4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightConversionTCPServer", "WeightConversionTCP\WeightConversionTCPServer.csproj", "{2C7E96BE-42F0-472D-AF76-899E9FB76AA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightConversionDLL", "WeightConversion\WeightConversionDLL.csproj", "{C47FC851-54E7-4611-9BC7-880324127140}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversionTest", "ConversionTest\ConversionTest.csproj", "{6475C125-16D9-422F-A574-B88C62E64F6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightConversionTCPClient", "WeightConversionTCPClient\WeightConversionTCPClient.csproj", "{33B87D6D-991E-4316-97D2-69F1306F6CF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{2C7E96BE-42F0-472D-AF76-899E9FB76AA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C7E96BE-42F0-472D-AF76-899E9FB76AA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C7E96BE-42F0-472D-AF76-899E9FB76AA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C47FC851-54E7-4611-9BC7-880324127140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C47FC851-54E7-4611-9BC7-880324127140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C47FC851-54E7-4611-9BC7-880324127140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C47FC851-54E7-4611-9BC7-880324127140}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6475C125-16D9-422F-A574-B88C62E64F6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6475C125-16D9-422F-A574-B88C62E64F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6475C125-16D9-422F-A574-B88C62E64F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6475C125-16D9-422F-A574-B88C62E64F6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33B87D6D-991E-4316-97D2-69F1306F6CF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33B87D6D-991E-4316-97D2-69F1306F6CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33B87D6D-991E-4316-97D2-69F1306F6CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33B87D6D-991E-4316-97D2-69F1306F6CF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
