@@ -6,7 +6,11 @@ namespace WeightConversionTCPClient
     {
         static void Main(string[] args)
         {
-            
+            WeightConversionClient c = new WeightConversionClient();
+
+            c.Start();
+
+            Console.ReadKey();
         }
     }
 }

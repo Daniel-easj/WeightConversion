@@ -1,4 +1,5 @@
 ﻿using System;
+using WeightConversionTCPServer;
 
 namespace WeightConversionTCP
 {
@@ -7,6 +8,10 @@ namespace WeightConversionTCP
         static void Main(string[] args)
         {
            
+           WeightConversionServer wcs = new WeightConversionServer(7);
+            wcs.Start();
+
+            Console.ReadLine();
         }
     }
 }
