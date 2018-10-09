@@ -47,14 +47,14 @@ namespace WeightConversionTCPServer
             {
                 string str = sr.ReadLine();
 
+                // Deler Stringen fra streamen op i 2 dele - method (togram eller toounces) og value (vægt)
                 string[] strs = str.Split(" ");
-
                 string method = strs[0];
                 string value = strs[1];
 
                 double valueNumber = double.Parse(value);
 
-
+                // konverterer her værdien fra clienten baseret på navnet af den metode der medbringes i den første del af stringen. Der laves ikke fejlhåndtering.
                 sw.WriteLine(method.ToLower() == "togram"
                     ? ConverterClass.ConvertToGram(valueNumber) : ConverterClass.ConvertToOunces(valueNumber));
 
