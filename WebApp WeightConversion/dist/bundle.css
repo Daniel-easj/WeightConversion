@@ -1,0 +1,13 @@
+#content {
+  color: #0091aa; }
+
+h2, h1 {
+  color: #be4a14; }
+
+  button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 12px;
+    border-color: forestgreen;
+    background-color: forestgreen;
+  }
